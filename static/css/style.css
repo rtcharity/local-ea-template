@@ -80,3 +80,11 @@ textarea {
   font-size: 0.75em;
   line-height: 0.5em;
 }
+
+ul.nav {
+  margin-left: auto;
+}
+
+ul.navbar-nav.mr-auto li:not(:last-child), ul.navbar-nav.mr-auto div {
+  margin-right: 1em;
+}
