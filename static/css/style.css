@@ -85,6 +85,22 @@ ul.nav {
   margin-left: auto;
 }
 
-ul.navbar-nav.mr-auto li:not(:last-child), ul.navbar-nav.mr-auto div {
+ul.navbar-nav.mr-auto > li:not(:last-child), ul.navbar-nav.mr-auto > div {
   margin-right: 1em;
 }
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 8px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #343a40;
+    text-decoration: none;
+}
+
