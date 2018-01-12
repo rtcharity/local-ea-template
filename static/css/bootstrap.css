@@ -8817,7 +8817,7 @@ a.text-dark:focus, a.text-dark:hover {
   border-width: 1px 0 0 0;
 }
 
-.btn {
+.jumbotron .btn {
   border-radius: 17.25px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 14px;
