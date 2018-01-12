@@ -13,22 +13,18 @@
       <container>
           <form action="https://formspree.io/{{ .Site.Params.groupinfo.contactEmail }}"
                 method="POST">
-              <p>{{ .Site.Params.contactform.senderName }}:</p>
-              <input type="text" name="name">
+              <label for="name">{{ .Site.Params.contactform.senderName }}:</label>
+              <input type="text" name="name" id="name">
 
-              <br><br>
-              <p>{{ .Site.Params.contactform.senderEmail }}:</p>
-              <input type="email" name="_replyto">
+              <label for="email">{{ .Site.Params.contactform.senderEmail }}:</label>
+              <input type="email" name="_replyto" id="email">
 
-              <br><br>
-              <p>{{ .Site.Params.contactform.emailSubject }}:</p>
-              <input type="text" name="_subject"/>
+              <label for="subject">{{ .Site.Params.contactform.emailSubject }}:</label>
+              <input type="text" name="_subject" id="subject">
 
-              <br><br>
-              <p>{{ .Site.Params.contactform.emailMessage }}:</p>
-              <textarea rows=10 columns=30 name="_message"></textarea>
+              <label for="message">{{ .Site.Params.contactform.emailMessage }}:</label>
+              <textarea rows=10 columns=30 name="_message" id="message"></textarea>
 
-              <br>
               <input type="submit" class="btn btn-default" value="{{ .Site.Params.contactform.send }}">
           </form>
       </container>

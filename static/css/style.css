@@ -104,3 +104,12 @@ ul.navbar-nav.mr-auto > li:not(:last-child), ul.navbar-nav.mr-auto > div {
     text-decoration: none;
 }
 
+label {
+  display: block;
+  margin-top: 1.5rem;
+}
+
+input[type=submit] {
+  margin-top: 2rem;
+}
+
