@@ -13,17 +13,17 @@
                 <div class="dropdown">
                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ .Site.BaseURL }}">{{ .Site.Params.navbar.EffectiveAltruism }}<span class="caret"></span></a>
                    <ul class="dropdown-menu">
-                       <li><a href="{{ "effective-altruism" | absLangURL }}">{{ .Site.Params.navbar.AboutEA }}</a></li>
-                     <li><a href="{{ "key-terms" | absLangURL }}">{{ .Site.Params.navbar.KeyTerms }}</a></li>
-                     <li><a href="{{ "organizations" | absLangURL }}">{{ .Site.Params.navbar.Organizations }}</a></li>
-                     <li><a href="{{ "reading-material" | absLangURL }}">{{ .Site.Params.navbar.ReadingMaterial }}</a></li>
+                      <li><a href="{{ "effective-altruism" | absLangURL }}">{{ .Site.Params.navbar.AboutEA }}</a></li>
+                      <li><a href="{{ "key-terms" | absLangURL }}">{{ .Site.Params.navbar.KeyTerms }}</a></li>
+                      <li><a href="{{ "organizations" | absLangURL }}">{{ .Site.Params.navbar.Organizations }}</a></li>
+                      <li><a href="{{ "reading-material" | absLangURL }}">{{ .Site.Params.navbar.ReadingMaterial }}</a></li>
                    </ul>
                </div>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ "faq" | absLangURL }}">{{ .Site.Params.navbar.Faq }} </a>
+                  <a class="nav-link" href="{{ "faq" | absLangURL }}">{{ .Site.Params.navbar.Faq }} </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ "contact" | absLangURL }}">{{ .Site.Params.navbar.Contact }}</a>
+                  <a class="nav-link" href="{{ "contact" | absLangURL }}">{{ .Site.Params.navbar.Contact }}</a>
                 </li>
                 {{ partial "allLanguages.html" . }}
             </ul>
